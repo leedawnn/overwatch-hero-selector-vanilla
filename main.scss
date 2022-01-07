@@ -44,7 +44,7 @@ body {
       @for $i from 1 through 32 {
         // .hero
         &:nth-child(#{$i}) .image {
-          background-image: url('#{url}/hero#{$i}.png');
+          background-image: url('#{$url}/hero#{$i}.png');
         }
       }
     }
